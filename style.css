@@ -1,0 +1,62 @@
+main{
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0,0,0.1);
+  border: 2px solid #008080;
+  text-align: center;
+  border-radius: 8px;
+  color: #333;
+}
+
+main img{
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+  margin: 10px;
+}
+p{padding:0;}
+aside{
+  width: 320px;
+  margin: 20px auto;
+  border: 2px solid #008080;
+  padding: 15px;
+  background-color: #f8f9fa;
+  color: #333;
+  box-shadow: 4px 4px 10px rgba(0, 0,0,0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+aside img{
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+aside img:hover {
+  transform: scale(1.05);
+
+}
+.lagos-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #008080;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3;
+
+}
+footer{
+  margin-top: 20px;
+  border-top: 3px solid #008080;
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(to right, #008080, #005f5f);
+  color: white;
+  font-weight: bold;
+}
