@@ -1,7 +1,7 @@
 /* Define color scheme */
 :root {
     --primary-color: #264653;
-    --secondary-color: #2A9D8F;
+    --secondary-color:#2A9D8F ;
     --text-color: #E9C46A;
     --bg-color: #F4A261;
 }
@@ -22,6 +22,7 @@ header {
     align-items: center;
     background-color: var(--primary-color);
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 header img {
@@ -92,17 +93,43 @@ section img {
 footer {
     background-color: var(--primary-color);
     color: var(--text-color);
-    padding: 10px;
+    padding: 20px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
-footer .social-links a {
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer .socialmedia {
+    margin-top: 10px;
+}
+
+footer .socialmedia a {
     margin: 0 10px;
     text-decoration: none;
 }
 
-footer .social-links img {
+footer .socialmedia img {
     width: 30px;
+}
+
+/* ✅ Evaluation Tool Links */
+footer .validators {
+    margin-top: 10px;
+}
+
+footer .validators a {
+    color: var(--secondary-color);
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+footer .validators a:hover {
+    text-decoration: underline;
 }
